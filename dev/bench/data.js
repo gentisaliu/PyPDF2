@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654375060923,
-  "repoUrl": "https://github.com/py-pdf/PyPDF2",
+  "lastUpdate": 1699565471210,
+  "repoUrl": "https://github.com/gentisaliu/PyPDF2",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
       {
@@ -4009,6 +4009,65 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014375532594736997",
             "extra": "mean: 4.4178850678 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "info@martin-thoma.de",
+            "name": "Martin Thoma",
+            "username": "MartinThoma"
+          },
+          "committer": {
+            "email": "info@martin-thoma.de",
+            "name": "Martin Thoma",
+            "username": "MartinThoma"
+          },
+          "distinct": true,
+          "id": "112bfabd73c2464eb3c969b6cc94138b44acffc5",
+          "message": "DOC: Add Alexey Paramonov as a contributor for #2280",
+          "timestamp": "2023-11-05T16:56:14+01:00",
+          "tree_id": "6a0977ba353152c56347834325cc055e01c159a7",
+          "url": "https://github.com/gentisaliu/PyPDF2/commit/112bfabd73c2464eb3c969b6cc94138b44acffc5"
+        },
+        "date": 1699565470137,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/bench.py::test_page_operations",
+            "value": 2.680267473111269,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008939858046411436",
+            "extra": "mean: 373.097091999999 msec\nrounds: 5"
+          },
+          {
+            "name": "tests/bench.py::test_merge",
+            "value": 11.138759078821895,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009810510356559849",
+            "extra": "mean: 89.77660733333377 msec\nrounds: 12"
+          },
+          {
+            "name": "tests/bench.py::test_text_extraction",
+            "value": 0.22294641949282734,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006742909064479812",
+            "extra": "mean: 4.485382641600002 sec\nrounds: 5"
+          },
+          {
+            "name": "tests/bench.py::test_read_string_from_stream_performance",
+            "value": 12.08936795669088,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001661983718227409",
+            "extra": "mean: 82.71731024999933 msec\nrounds: 12"
+          },
+          {
+            "name": "tests/bench.py::test_image_new_property_performance",
+            "value": 0.03870534348385823,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1293272830671247",
+            "extra": "mean: 25.836225957200003 sec\nrounds: 5"
           }
         ]
       }
